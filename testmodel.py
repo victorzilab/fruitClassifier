@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Carregar o modelo salvo
-model = load_model("fruit_classifier_model.h5")
+model = load_model("models/fruit_classifier_model.h5")
 
 # Exibir o resumo da arquitetura do modelo
 print("Resumo do Modelo:")
